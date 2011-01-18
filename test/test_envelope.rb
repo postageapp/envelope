@@ -1,7 +1,7 @@
 require 'helper'
 
 class TestEnvelope < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+  def test_module_loads
+    assert Envelope
   end
 end
